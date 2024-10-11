@@ -68,7 +68,7 @@ const MovieCard: React.FC<MovieCardProps> = ({ movie }) => {
               <iframe
                 width="300"
                 height="450"
-                src={`https://www.youtube.com/embed/${trailerKey}?autoplay=1`}
+                src={`https://www.youtube.com/embed/${trailerKey}?autoplay=0`}
                 title={movie.title}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

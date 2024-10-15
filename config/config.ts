@@ -1,7 +1,7 @@
 import axios, { AxiosInstance } from "axios";
 
 const axiosInstance: AxiosInstance = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL: "https://d34afb8hrg58v2.cloudfront.net",
   withCredentials: true, 
 });
 
